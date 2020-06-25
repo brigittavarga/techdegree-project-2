@@ -174,14 +174,15 @@ h2.section-title {
     #intro {
         align-items: flex-start;
     }
-    
-    .row {
-        flex-direction: row;
-        width: 33%;
+
+    .wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .column {
-        padding: .5rem;
+    .portfolio-card {
+        width: 30%;
+        padding: 10px;
     }
 
 }
