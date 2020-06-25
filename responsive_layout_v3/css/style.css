@@ -134,12 +134,11 @@ h2.section-title {
     .wrapper {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .portfolio-card {
         width: 40%;
-        padding: .5rem;
     }
 
     #portfolio {
@@ -176,12 +175,11 @@ h2.section-title {
 
     .wrapper {
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .portfolio-card {
         width: 30%;
-        padding: 10px;
     }
 
 }
