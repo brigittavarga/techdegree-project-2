@@ -174,11 +174,14 @@ h2.section-title {
     #intro {
         align-items: flex-start;
     }
-
-    .column {
+    
+    .row {
         flex-direction: row;
-        flex-flow: column;
+        width: 33%;
     }
 
+    .column {
+        padding: .5rem;
+    }
 
 }
