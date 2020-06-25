@@ -131,16 +131,15 @@ h2.section-title {
         align-items: center;
     }
 
-    .column {
-        display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;
-        padding: .8rem;
-    }
-
     .wrapper {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .portfolio-card {
+        width: 40%;
+        padding: .5rem;
     }
 
     #portfolio {
