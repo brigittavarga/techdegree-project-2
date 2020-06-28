@@ -35,7 +35,7 @@ p {
 
 #main-header {
     background-color: #36ACD0;
-    width: 100%;
+    width: auto;
 }
 
 .nav li {
@@ -73,6 +73,7 @@ h1 {
 .profile-img {
     align-self: center;
     padding: 30px;
+    width: 100%;
 }
 
 #portfolio {
